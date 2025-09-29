@@ -1,7 +1,7 @@
 package Com;
 
 // Workable.java
-public interface Workable {
+interface Workable {
     void work();
 }
 

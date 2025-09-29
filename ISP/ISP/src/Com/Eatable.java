@@ -1,7 +1,7 @@
 package Com;
 
 // Eatable.java
-public interface Eatable {
+interface Eatable {
     void eat();
 }
 

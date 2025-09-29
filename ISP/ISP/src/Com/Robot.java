@@ -1,9 +1,9 @@
 package Com;
 
 // Robot.java
-public class Robot implements Workable {
+class Robot implements Workable {
     public void work() {
-        System.out.println("Robô trabalhando...");
+        System.out.println("Robô está trabalhando...");
     }
 }
 
