@@ -1,13 +1,21 @@
 package Sem;
 
 // Robot.java
-public class Robot implements Worker {
+class Robot implements Worker {
     public void work() {
-        System.out.println("Robô trabalhando...");
+        System.out.println("Robô está trabalhando...");
     }
+
     public void eat() {
-        // Não faz sentido!
-        throw new UnsupportedOperationException("Robôs não comem!");
+        System.out.println("Robô não come, mas foi obrigado a implementar.");
+    }
+
+    public void sleep() {
+        System.out.println("Robô não dorme, mas foi obrigado a implementar.");
+    }
+
+    public void getPaid() {
+        System.out.println("Robô não recebe salário, mas foi obrigado a implementar.");
     }
 }
 
